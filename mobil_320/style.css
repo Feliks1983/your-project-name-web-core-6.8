@@ -1,0 +1,274 @@
+body {
+  box-sizing: border-box;
+  font-family: TT Lakes;
+  margin: 0px;
+  padding: 0px;
+}
+
+@font-face {
+  font-family: TT Lakes;
+  src: url(./../font/TTLakes-Italic.ttf) format('opentype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@media screen and (min-width: 430px) and (max-width: 768px)  {
+  body {
+    display: flex;
+    flex-flow: row;
+  }
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  width: 320px;
+  height: 88px;
+}
+
+.menu__back__block {
+  display: flex;
+  justify-content: space-evenly;
+  width: 320px;
+  height: 40px;
+  margin-left: -12px;
+  margin-top: 16px;
+  opacity: 1;
+}
+
+.menu__back__block__hedar__burger {
+  width: 40px;
+  height: 40px;
+  opacity: 1;
+  margin-left: 16px;
+  margin-top: 24px;
+}
+
+.menu__back__block__hedar__group {
+  width: 96.55px;
+  height: 50.81px;
+  opacity: 1;
+  margin-top: 18.59px;
+  margin-left: 16px;
+}
+
+.menu__back__block__headar__divider {
+  width: 1px;
+  height: 32px;
+  opacity: 1;
+  margin-left: 0px;
+  margin-top: 8px;
+  border-radius: 1px solid #EAEAEA;
+}
+
+.menu__back__block__hedar__repair {
+    width: 40px;
+    height: 40px;
+    opacity: 1;
+    margin-top: 24px;
+    margin-left: 20px;
+}
+
+.menu__back__block__hedar__checkstatus {
+    width: 40px;
+    height: 40px;
+    opacity: 1;
+    margin-top: 24px;
+    margin-left: 16px;
+}
+
+.menu__back__block__headar__shadow {
+  margin-left: -320px;
+  margin-top: 74.59px;
+  opacity: 1;
+  width: 320px;
+  height: 1px;
+  background: #D9FFF5;
+}
+
+.background {
+  width: 320px;
+  height: 509px;
+  opacity: 1;
+  margin-left: 0px;
+  margin-top: 0px;
+  background: #F8F8F8;
+}
+
+.main__title {
+  display: flex;
+  width: 304px;
+  height: 40px;
+  opacity: 1;
+  margin-left: 0px;
+  margin-top: 24px;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 40px;
+  letter-spacing: -0.6px;
+  color: #1B1C21;
+  font-family: TT Lakes;
+}
+
+.main__title__text {
+  width: 288px;
+  height: 40px;
+  opacity: 1;
+  margin-left: 12px;
+  margin-top: 0px;
+  color: #1B1C21;
+}
+
+.highlight__long {
+  width: 4px;
+  height: 40px;
+  opacity: 1;
+  margin-left: 0px;
+  margin-top: 0px;
+}
+
+.slidemenu {
+  display: flex;
+  width: 504px;
+  height: 40px;
+  opacity: 1;
+  margin-top: 24px;
+  margin-left: 16px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.2px;
+}
+
+.fade {
+  width: 24px;
+  height: 40px;
+  opacity: 1;
+  margin-top: 0px;
+  margin-left: 0px;
+  background: linear-gradient(270deg, #F8F8F8 16.84%, rgba(248, 248, 248, 0.0001) 100%);
+}
+
+.button__slidemenu1 {
+  margin-left: 0px;
+  margin-top: 0px;
+  width: 246px;
+  height: 40px;
+  border: none;
+  background: none;
+}
+
+.button__slidemenu__text1 {
+  width: 220.16px;
+  height: 24px;
+  opacity: 1;
+  margin-top: 8px;
+  margin-left: -16.54px;
+  color: #7E7E82;
+}
+
+.button__slidemenu__back1 {
+  width: 246px;
+  height: 40px;
+  opacity: 1;
+  margin-top: -52px;
+  margin-left: 0px;
+  border-width: 2px;
+  border-radius: 6px;
+  border: 2px solid #B8FFEC;
+}
+
+.button__slidemenu2 {
+  margin-top: -4px;
+  margin-left: 0px;
+  width: 258px;
+  height: 40px;
+  background: none;
+  border: none;
+}
+
+.button__slidemenu__text2 {
+  width: 191.18px;
+  height: 24px;
+  opacity: 1;
+  margin-top: 8px;
+  margin-left: 0px;
+  color: #7E7E82;
+}
+
+.button__slidemenu__back2 {
+  width: 258px;
+  height: 40px;
+  opacity: 1;
+  margin-top: -52px;
+  margin-left: 16.54px;
+  border-radius: 6px;
+}
+
+.first__block {
+  width: 320px;
+  height: 322px;
+  opacity: 1;
+  margin-left: 16px;
+  margin-top: 24px;
+}
+
+.content__text {
+  width: 288px;
+  height: 90px;
+  opacity: 1;
+  margin-left: 0px;
+  margin-top: 0px;
+}
+
+.long__text {
+  margin-left: 0px;
+  margin-top: 0px;
+  color: #1B1C21;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.2px;
+}
+
+.picture__img {
+  width: 320px;
+  height: 176px;
+  opacity: 1;
+  margin-left: -15px;
+  margin-top: 16px;
+  border-width: 2px;
+}
+
+.readmore {
+  display: flex;
+  flex-direction: row;
+  width: 132px;
+  height: 24px;
+  opacity: 1;
+  margin-left: 0px;
+  margin-top: 16px;
+}
+
+.expand {
+  width: 24px;
+  height: 24px;
+  opacity: 1;
+  margin-left: 0px;
+  margin-top: 0px;
+  z-index: 1;
+}
+
+.readmore__text {
+  width: 100px;
+  height: 24px;
+  opacity: 1;
+  margin-left: 0px;
+  margin-top: 0px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.2px;
+}
+
+
