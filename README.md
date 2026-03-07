@@ -1,2 +1,2 @@
 # your-project-name-web-core-6.8
-https://github.com/Feliks1983/your-project-name-web-core-6.8.git
+https://feliks1983.github.io/your-project-name-web-core-6.8/
