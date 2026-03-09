@@ -23,7 +23,7 @@ button {
 	font-family: inherit;
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 768px) {
 	.header {
 		width: auto;
 		height: 88px;
@@ -55,7 +55,8 @@ button {
 	}
 
 	.main {
-		padding: 24px 16px;
+		padding-top: 24px;
+		padding-bottom: 35px;
 		background: #f8f8f8;
 	}
 
@@ -71,6 +72,8 @@ button {
 		height: 40px;
 		background: #41f6d7;
 		border-radius: 0 2px 2px 0;
+		margin-left: 0px;
+		margin-top: 0px;
 	}
 
 	.main__text {
@@ -79,6 +82,8 @@ button {
 		line-height: 40px;
 		letter-spacing: -0.6px;
 		color: #1b1c21;
+		margin-left: 0px;
+		margin-top: 0px;
 	}
 
 	.main__section__remove,
@@ -93,6 +98,8 @@ button {
 		margin-bottom: 24px;
 		padding-bottom: 4px;
 		min-width: 320px;
+		margin-left: 16px;
+		margin-top: 0px;
 	}
 
 	.main__slide__button {
@@ -125,6 +132,8 @@ button {
 
 	.main__group__content__text {
 		max-width: 100%;
+		margin-left: 16px;
+		margin-top: 0px;
 	}
 
 	.main__group__long__text {
@@ -160,12 +169,12 @@ button {
 	.main__group__picture {
 		width: 100%;
 		height: auto;
-		max-width: 320px;
+		max-width: 358px;
 		border-radius: 6px;
 	}
 }
 
-@media screen and (min-width: 768px) and (max-width: 1119px) {
+@media screen and (min-width: 768px) and (max-width: 1120px) {
 	.header {
 		max-width: 1119px;
 		height: 88px;
@@ -202,14 +211,13 @@ button {
 	}
 
 	.main {
-		padding: 24px 24px 32px;
 		background: #f8f8f8;
 	}
 
 	.main__title {
 		display: flex;
 		align-items: center;
-		gap: 12px;
+		gap: 24px;
 		margin-bottom: 24px;
 	}
 
@@ -239,6 +247,8 @@ button {
 		gap: 8px;
 		margin-bottom: 32px;
 		min-width: 768px;
+		margin-left: 24px;
+		margin-top: 0px;
 	}
 
 	.main__slide__button {
@@ -268,6 +278,9 @@ button {
 		flex-direction: row;
 		gap: 48px;
 		align-items: flex-start;
+		margin-left: 24px;
+		margin-top: 0px;
+		height: 208px;
 	}
 
 	.main__group__content__text {
@@ -320,7 +333,6 @@ button {
 	.main {
 		max-width: 1120px;
 		margin: 0 auto;
-		padding: 34px 16.32px 28.45px 49px;
 		background: #f8f8f8;
 		margin-left: 0px;
 		margin-top: 0px;
@@ -355,6 +367,7 @@ button {
 
 	.main__section__title__text {
 		margin-right: auto;
+		width: 266px;
 	}
 
 	.main__section__title__h3 {
@@ -393,6 +406,8 @@ button {
 		flex-wrap: wrap;
 		justify-content: space-between;
 		width: 1096px;
+		margin-left: 32px;
+		margin-top: 0px;
 	}
 
 	.main__section--active {
@@ -420,6 +435,7 @@ button {
 		gap: 36px;
 		align-items: flex-start;
 		margin-top: 16px;
+		margin-left: 32px;
 	}
 
 	.main__group__content__text {
