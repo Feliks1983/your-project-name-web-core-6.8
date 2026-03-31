@@ -1,17 +1,14 @@
-* {
+body {
+	font-family: "TT Lakes";
+	background: #f8f8f8;
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
 }
 
-body {
-	font-family: "TT Lakes";
-	background: #f8f8f8;
-}
-
 @font-face {
 	font-family: "TT Lakes";
-	src: url(./../font/TTLakes-Regular.ttf) format("opentype");
+	src: url(./../font/TTLakes-Regular.ttf) format("truetype");
 	font-weight: normal;
 	font-style: normal;
 }
@@ -142,17 +139,17 @@ button {
 	margin-bottom: 16px;
 }
 
-.main__group__long__text p:nth-of-type(2) {
-	display: none;
-}
+	.main__group__long__text p {
+		display: block;
+	}
 
-.main__group__long__text p:nth-of-type(3) {
-	display: none;
-}
+	.main__group__long__text p span {
+		display: none;
+	}
 
-.main__group__long__text p:nth-of-type(4) {
-	display: none;
-}
+	.main__group__long__text p span + span {
+		display: none;
+	}
 
 .main__group__readmore {
 	display: flex;
@@ -297,15 +294,11 @@ button {
 		margin-bottom: 16px;
 	}
 
-		.main__group__long__text p:nth-of-type(2) {
+	.main__group__long__text p span {
 		display: block;
 	}
 
-	.main__group__long__text p:nth-of-type(3) {
-		display: none;
-	}
-
-	.main__group__long__text p:nth-of-type(4) {
+	.main__group__long__text p span + span {
 		display: none;
 	}
 
@@ -446,6 +439,7 @@ button {
 	}
 
 	.main__group__long__text {
+		display: block;
 		font-size: 14px;
 		font-weight: 400;
 		line-height: 20px;
@@ -454,17 +448,17 @@ button {
 		margin-bottom: 24px;
 	}
 
-	.main__group__long__text p:nth-of-type(2) {
-	display: block;
-}
+	.main__group__long__text p {
+		display: block;
+	}
 
-.main__group__long__text p:nth-of-type(3) {
-	display: block;
-}
+	.main__group__long__text p span {
+		display: block;
+	}
 
-.main__group__long__text p:nth-of-type(4) {
-	display: block;
-}
+	.main__group__long__text p span + span {
+		display: block;
+	}
 
 	.main__group__readmore {
 		display: flex;
