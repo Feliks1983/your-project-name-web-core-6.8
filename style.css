@@ -131,6 +131,7 @@ button {
 }
 
 .main__group__long__text {
+	display: block;
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 18px;
@@ -139,15 +140,15 @@ button {
 	margin-bottom: 16px;
 }
 
-	.main__group__long__text p {
-		display: block;
-	}
-
-	.main__group__long__text p span {
+	.main__group__content__text p + p {
 		display: none;
 	}
 
-	.main__group__long__text p span + span {
+	.main__group__content__text p + p span {
+		display: none;
+	}
+
+	.main__group__content__text p + p span + span {
 		display: none;
 	}
 
@@ -286,6 +287,7 @@ button {
 	}
 
 	.main__group__long__text {
+		display: block;
 		font-size: 14px;
 		font-weight: 400;
 		line-height: 18px;
@@ -294,11 +296,15 @@ button {
 		margin-bottom: 16px;
 	}
 
-	.main__group__long__text p span {
+	.main__group__content__text p + p {
 		display: block;
 	}
 
-	.main__group__long__text p span + span {
+	.main__group__content__text p + p span {
+		display: block;
+	}
+
+	.main__group__content__text p + p span + span {
 		display: none;
 	}
 
@@ -440,6 +446,7 @@ button {
 
 	.main__group__long__text {
 		display: block;
+		display: block;
 		font-size: 14px;
 		font-weight: 400;
 		line-height: 20px;
@@ -448,15 +455,15 @@ button {
 		margin-bottom: 24px;
 	}
 
-	.main__group__long__text p {
+	.main__group__content__text p + p {
 		display: block;
 	}
 
-	.main__group__long__text p span {
+	.main__group__content__text p + p span {
 		display: block;
 	}
 
-	.main__group__long__text p span + span {
+	.main__group__content__text p + p span + span {
 		display: block;
 	}
 
