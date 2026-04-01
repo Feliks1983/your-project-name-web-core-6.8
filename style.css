@@ -278,6 +278,7 @@ button {
 		gap: 48px;
 		align-items: flex-start;
 		margin-left: 24px;
+		margin-right: 25px;
 		height: 208px;
 	}
 
@@ -357,6 +358,7 @@ button {
 		align-items: center;
 		gap: 24px;
 		margin-bottom: 8px;
+		margin-right: 25px;
 	}
 
 	.main__section__highlight {
@@ -437,6 +439,7 @@ button {
 		align-items: flex-start;
 		margin-top: 16px;
 		margin-left: 32px;
+		margin-right: 28px;
 	}
 
 	.main__group__content__text {
