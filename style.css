@@ -23,21 +23,16 @@ button {
 }
 
 .header {
+	display: flex;
+	align-items: center;
+	gap: 16px;
+	padding: 16px 18px 24px;
 	background: #fff;
 	width: auto;
 	box-sizing: border-box;
 	height: 88px;
 	background: #fff;
 	border-bottom: 1px solid #d9fff5;
-}
-
-.header__title {
-	display: flex;
-	align-items: center;
-	gap: 16px;
-	width: auto;
-	height: 88px;
-	padding: 16px 18px 24px;
 }
 
 .headar__icon {
@@ -183,18 +178,13 @@ button {
 @media screen and (min-width: 768px) and (max-width: 1120px) {
 	.header {
 		width: auto;
-		height: 88px;
-		background: #fff;
-		border-bottom: 1px solid #d9fff5;
-	}
-
-	.header__title {
 		display: flex;
-		flex-wrap: wrap;
 		align-items: center;
 		gap: 16px;
 		height: 88px;
-		padding: 16px 18px 24px;
+		padding: 16px 18px 24px 0;
+		background: #fff;
+		border-bottom: 1px solid #d9fff5;
 	}
 
 	.headar__icon {
@@ -343,7 +333,7 @@ button {
 	}
 
 	.main {
-		width: 100%;
+		width: auto;
 		background: #f8f8f8;
 		padding-top: 42px;
 		padding-right: 25px;
